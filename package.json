@@ -1,0 +1,22 @@
+{
+  "name": "d3-request-test-cjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve public",
+    "build": "browserify index.js -o public/bundle.js -t [ babelify --presets [ env ] ]",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "serve": "^6.4.1"
+  },
+  "dependencies": {
+    "d3-request": "^1.0.6"
+  }
+}
